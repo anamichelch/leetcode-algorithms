@@ -26,6 +26,7 @@ def binary_search_recursive(nums, target, args*):
         return binary_search_recursive(nums, target,  left = left, mid-1)
     else:
         return binary_search_recursive(nums, target,mid+1,right )
+    pass
 
 
 nums = [-1, 0, 3, 5, 9, 12]
